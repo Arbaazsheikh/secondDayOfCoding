@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        display: flex;
+    }
+    .demo,.conatainer,label{
+        display: flex; display: inline-flex;
+    }
+        .demo li {
+        display: inline;
+        display: flex;
+        flex-direction: column;
+    }
+    .demo li ul{
+        display: flex;
+    }
+
+    .conatainer {
+        display: flex;
+        display: contents;
+    }
+</style>
+
+<body>
+    <nav>
+        <ul class="demo">
+            <li><b>HOME</b></li>
+            <li><b>ABOUT</b></li>
+            <li><b>CONTACT</b></li>
+            <li><b>HELP</b></li>
+        </ul>
+    </nav>
+    <div class="container1">
+        <form  method="catch" action="action.php">
+            <label for="name">Name: </abbr></label>
+            <input type="text" id="name" name="name"><br><br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email"><br><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br><br>
+            <label for="submit">Login</label>
+            <input type="submit" id="submit" name="submit">
+            <hr>
+            <label for="dropdown"> DropDownList</label>
+            <select name="List" id="Lisr">
+                <option value="List">Hllo</option>
+                <option value="List">welcome</option>
+                <option value="List">scroll Down</option>
+                <option value="List">heheh again</option>
+                <option value="List">wow one otp have been send to your number just type it down</option>
+            </select><br>
+            <hr>
+            <label for="otp">Enter your otp</label>
+            <input type="text" id="otp" name="otp"><br>
+            <label for="radio">Ratio Button</label>
+            <input type="radio" id="radio" name="radio"> <br>
+
+        </form>
+        <div class="Practice tag">
+           <abbr title="lol dude" style="text-decoration: none;">Lorem ipsum dolor sit</abbr>  amet <u> consectetur adipisicing elit</u>. <mark > Quisquam consectetur perspiciatis labore</mark>.
+        </div>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
